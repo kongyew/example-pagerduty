@@ -1,0 +1,25 @@
+status: 200
+x-request-id: 30fc6a2c58fc99157d4507e196393945
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+content-location: https://webdemo.pagerduty.com/api/v1/incidents?fields=status%2C+created_on%2C+assigned_to_user&since=2013-12-01T19%3A54%3A22.996609&until=2013-12-02T19%3A54%3A22.996592&sort_by=created_on%3Adesc
+-content-encoding: gzip
+access-control-max-age: 1728000
+set-cookie: _pagerduty_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTUwYTgzNjRiNTMzNGQ4MTYyZTU5MTBhMWQ4OWFlZjMxBjsAVEkiHHdhcmRlbi51c2VyLmFwaV9rZXkua2V5BjsAVFsISSILQXBpS2V5BjsARlsGaQLmBTA%3D--51c3e61f3c103f16add1f9484e7ac4036246c769;
+ path=/; HttpOnly, uid=CvwW91KdVXCIOghwA+IeAg==;
+ expires=Thu, 31-Dec-37 23:55:55 GMT; domain=pagerduty.com; path=/
+vary: Accept-Encoding
+connection: keep-alive
+content-length: 2250
+server: nginx
+x-runtime: 0.343515
+etag: "e1c0d7c8e09ce1870128150dc5c68a36"
+x-ua-compatible: IE=Edge,chrome=1
+cache-control: max-age=0, private, must-revalidate
+date: Tue, 03 Dec 2013 03:52:16 GMT
+access-control-allow-origin: *
+access-control-allow-headers: Authorization, Content-Type,
+ X-PagerDuty-Api-Local
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+{"incidents":[{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"},{"status":"resolved"}],"limit":100,"offset":0,"total":166}

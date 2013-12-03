@@ -1,0 +1,25 @@
+status: 200
+x-request-id: 581cd647aa57cbe6219025fccd721311
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+content-location: https://webdemo.pagerduty.com/api/v1/incidents?fields=status%2Ccreated_on%2Cassigned_to_user&since=2013-12-01T20%3A35%3A26.494252&limit=10&until=2013-12-02T20%3A35%3A26.494236&sort_by=created_on%3Adesc
+-content-encoding: gzip
+access-control-max-age: 1728000
+set-cookie: _pagerduty_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTI3YjM5YWUzYjRjZjdiYmQyNDg4Y2YzZjk3MDZlZDk5BjsAVEkiHHdhcmRlbi51c2VyLmFwaV9rZXkua2V5BjsAVFsISSILQXBpS2V5BjsARlsGaQLmBTA%3D--476c396e1418602d910ebaaf36aac982abccece0;
+ path=/; HttpOnly, uid=CvgRmlKdXw+ABwmdBGPBAg==;
+ expires=Thu, 31-Dec-37 23:55:55 GMT; domain=pagerduty.com; path=/
+vary: Accept-Encoding
+connection: keep-alive
+content-length: 869
+server: nginx
+x-runtime: 0.126589
+etag: "72598637af13a161048ef4023e0b8183"
+x-ua-compatible: IE=Edge,chrome=1
+cache-control: max-age=0, private, must-revalidate
+date: Tue, 03 Dec 2013 04:33:19 GMT
+access-control-allow-origin: *
+access-control-allow-headers: Authorization, Content-Type,
+ X-PagerDuty-Api-Local
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+{"incidents":[{"created_on":"2013-12-02T20:30:59Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T20:19:15Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T19:56:06Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T19:11:01Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T19:08:03Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T19:05:00Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T19:03:03Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T18:53:06Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T18:46:59Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-02T18:34:01Z","status":"resolved","assigned_to_user":null}],"limit":10,"offset":0,"total":158}

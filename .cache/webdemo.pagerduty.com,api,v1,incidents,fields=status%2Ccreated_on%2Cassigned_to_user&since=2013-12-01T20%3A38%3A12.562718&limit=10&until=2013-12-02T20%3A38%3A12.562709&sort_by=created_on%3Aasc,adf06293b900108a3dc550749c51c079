@@ -1,0 +1,25 @@
+status: 200
+x-request-id: 06b131ddd68efa8e9453e5aa1da3c626
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+content-location: https://webdemo.pagerduty.com/api/v1/incidents?fields=status%2Ccreated_on%2Cassigned_to_user&since=2013-12-01T20%3A38%3A12.562718&limit=10&until=2013-12-02T20%3A38%3A12.562709&sort_by=created_on%3Aasc
+-content-encoding: gzip
+access-control-max-age: 1728000
+set-cookie: _pagerduty_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFRkkiJTUzNmJiM2RiMjcwYjFmMTgzZWM0M2RhZTIzMTBhZjYwBjsAVEkiHHdhcmRlbi51c2VyLmFwaV9rZXkua2V5BjsAVFsISSILQXBpS2V5BjsARlsGaQLmBTA%3D--25a31c674ce65a022c0567d6b31b8f150b0a3fb8;
+ path=/; HttpOnly, uid=CvgRmlKdX7Vw2gmcBGNKAg==;
+ expires=Thu, 31-Dec-37 23:55:55 GMT; domain=pagerduty.com; path=/
+vary: Accept-Encoding
+connection: keep-alive
+content-length: 869
+server: nginx
+x-runtime: 0.081171
+etag: "c0015f8eaf8aa809393225d7a2fa5bda"
+x-ua-compatible: IE=Edge,chrome=1
+cache-control: max-age=0, private, must-revalidate
+date: Tue, 03 Dec 2013 04:36:05 GMT
+access-control-allow-origin: *
+access-control-allow-headers: Authorization, Content-Type,
+ X-PagerDuty-Api-Local
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+{"incidents":[{"created_on":"2013-12-01T20:41:07Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T20:43:34Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T20:49:51Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T20:59:09Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T21:05:21Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T21:09:04Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T21:16:09Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T21:18:18Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T21:28:14Z","status":"resolved","assigned_to_user":null},{"created_on":"2013-12-01T21:32:04Z","status":"resolved","assigned_to_user":null}],"limit":10,"offset":0,"total":157}
